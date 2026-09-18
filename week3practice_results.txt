@@ -1,0 +1,52 @@
+# Part 1: The Phantom Bug
+
+**Results (4 Python threads, 50,000,000 iterations):**
+
+| Run | Pi       |
+| --- | -------- |
+| 1   | 3.141996 |
+| 2   | 3.142016 |
+| 3   | 3.141780 |
+| 4   | 3.141503 |
+| 5   | 3.141795 |
+
+**Observation:** All results were close to 3.1415. Unlike the expected Java behavior, Python did not produce significant data-race errors because CPython's GIL affects thread execution.
+
+---
+
+# Part 2: The Synchronization Trap
+
+| Method                   | Pi       | Runtime  |
+| ------------------------ | -------- | -------- |
+| Single-threaded          | 3.141746 | 5.9763 s |
+| Synchronized (4 threads) | 3.141654 | 9.8793 s |
+
+**Slowdown multiplier:** 1.65x
+
+**Observation:** The synchronized version was slower than the single-threaded version because frequent lock acquisition and release caused synchronization overhead. In CPython, the GIL also limits the benefits of CPU-bound threading.
+
+---
+
+# Part 3: OpenMP-Style Reduction
+
+**Total iterations:** 100,000,000
+
+| Threads | Runtime (ms) | Speedup | Efficiency |
+| ------- | -----------: | ------: | ---------: |
+| 1       |     12891.05 |   1.00x |    100.00% |
+| 2       |      7439.03 |   1.73x |     86.64% |
+| 4       |      4400.25 |   2.93x |     73.24% |
+| 8       |      3378.80 |   3.82x |     47.69% |
+| 16      |      3302.71 |   3.90x |     24.39% |
+| 32      |      4153.59 |   3.10x |      9.70% |
+
+## Questions
+
+### 1. Why did 16 threads not run twice as fast as 8 threads?
+
+Increasing the number of threads from 8 to 16 improved runtime only slightly, from 3378.80 ms to 3302.71 ms. This happened because of process creation overhead, CPU resource limitations, and scheduling overhead. Additional threads do not always provide proportional speedup.
+
+### 2. Why was the synchronized version slower than one single core?
+
+The synchronized version required a lock for every shared counter increment. This created frequent lock contention and synchronization overhead. In addition, Python's GIL limits parallel execution of CPU-bound threads, making the synchronized version slower than the single-threaded loop.
+

@@ -1,6 +1,13 @@
 # Measured worksheet tables
 
-Student ID: `3254`. N: **13,254,000**. Maximum steps: **688**. Checksum: **96515714**. Hits > 100: **10,684,763**.
+Student: **Ainabek Aisultan**. Student ID: **230103254**.
+
+Git URL: [https://github.com/ros1nant](https://github.com/ros1nant).
+
+The original run used the last-four-digit input `3254`; raw logs preserve that value.
+The full ID has the same final four digits and therefore the same workload.
+
+N: **13,254,000**. Maximum steps: **688**. Checksum: **96515714**. Hits > 100: **10,684,763**.
 
 All configurations returned matching maxima, checksums, and hit counts. Run 1 is discarded; each average uses runs 2 and 3 only.
 

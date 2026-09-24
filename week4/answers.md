@@ -11,12 +11,11 @@ are identified separately.
 
 | Required field | Recorded information |
 |---|---|
-| Student full name | ____________________ (not supplied) |
-| Student ID entered for this run | 3254 |
-| Institutional email / Git URL | ____________________ (not supplied) |
+| Student full name | Ainabek Aisultan |
+| Student ID | 230103254 |
+| Git URL | [https://github.com/ros1nant](https://github.com/ros1nant) |
 | Practicum date | 24 September 2026 |
 | Recorded benchmark interval | 07:15:06–07:15:38 UTC; 12:15:06–12:15:38 at UTC+05:00 |
-| Assigned practicum slot | ____________________ (not recorded in the logs) |
 | Laptop | ASUS ROG Strix G614JV_G614JV |
 | Operating system | Windows 11 Home Single Language, 64-bit, version 10.0.26200 |
 | CPU and generation | Intel Core i7-13650HX, 13th generation, Raptor Lake |
@@ -39,7 +38,9 @@ of the whole lab session.
 
 ## 2. Workload derivation and correctness
 
-Using the recorded student ID's last four digits:
+Student ID **230103254** ends in **3254**. The original benchmark was invoked
+with `3254`, so the raw logs retain that entered value. Both inputs produce the
+same workload because the program uses only the last four digits:
 
 ```text
 N = 10,000,000 + (3254 × 1,000)
@@ -321,10 +322,10 @@ To reproduce the computation manually after compilation, run from this folder:
 
 ```powershell
 New-Item -ItemType Directory -Path rerun
-.\collatz.exe 3254 14 rerun
+.\collatz.exe 230103254 14 rerun
 ```
 
-This uses the recorded ID and physical core count. It writes new raw measurements
+This uses the full student ID and the recorded physical core count. It writes new raw measurements
 to `rerun` without replacing the submitted dataset. GCC and its OpenMP runtime
 must be available in the terminal's PATH.
 
@@ -337,10 +338,9 @@ must be available in the terminal's PATH.
 | Written answers Q1–Q4 | Sections 7–10 of this file and [`analysis.pdf`](analysis.pdf) |
 | Supporting run metadata and diagnostics | [`session.json`](runs/20260924_121506_410/session.json), [`console_log.txt`](runs/20260924_121506_410/console_log.txt), [`thread_profiles.csv`](runs/20260924_121506_410/thread_profiles.csv) |
 
-Fill in the missing name, email/Git URL, and assigned slot before submission.
 The worksheet explicitly requests `analysis.pdf` or written worksheet answers;
 `analysis.pdf` is an export of this answersheet. After changing personal details,
 export it again to keep the PDF and Markdown consistent. Keep this Markdown
 version in the repository along with its linked run files. The worksheet
-allows a private repository with instructor access or a `lab1_[StudentID].tar.gz`
+allows a private repository with instructor access or a `lab1_230103254.tar.gz`
 archive. Repository access and publishing are separate from the measured results.

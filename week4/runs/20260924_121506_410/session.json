@@ -1,0 +1,18 @@
+﻿{
+    "student_id":  "3254",
+    "n":  13254000,
+    "start_utc":  "2026-09-24T07:15:06.4120939Z",
+    "physical_cores":  14,
+    "logical_processors":  20,
+    "compiler":  "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "compiler_flags":  "-O2 -fopenmp -std=c11 -Wall -Wextra",
+    "status":  "complete",
+    "source_sha256":  {
+                          "analyze_results.py":  "CE6B9A5B633F9993868CF89D81843EEDFDCBB440C7349A3D9F81E56F41305688",
+                          "collatz_common.h":  "617A9D0800AB3EADAFCE748D94961F2852FC4A52393BD081BB6F16ADC0F67705",
+                          "collatz_seq.c":  "0BC1F10E0338085C1ABA5C2A61F3C96D634EC92371D1B69240F70EC9A886BC35",
+                          "run_lab.ps1":  "8958BCA508B23F3B3FD8B8115175D42C6E97CBD144A5AA2FB2CD5545525B56C6",
+                          "collatz.c":  "624E31F5BF7E479699B5CB8267152276FF32DB299D3E204F8B78D9DECE7E9198"
+                      },
+    "end_utc":  "2026-09-24T07:15:38.3505671Z"
+}

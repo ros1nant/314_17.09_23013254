@@ -1,0 +1,94 @@
+﻿
+
+Name                      : 13th Gen Intel(R) Core(TM) i7-13650HX
+NumberOfCores             : 14
+NumberOfLogicalProcessors : 20
+
+
+
+Capture UTC: 2026-09-24T07:15:06.4120939Z
+
+
+Manufacturer        : ASUSTeK COMPUTER INC.
+Model               : ROG Strix G614JV_G614JV
+TotalPhysicalMemory : 16780582912
+
+
+
+
+
+Caption        : Майкрософт Windows 11 Домашняя для одного языка
+Version        : 10.0.26200
+OSArchitecture : 64-разрядная
+
+
+
+
+
+Capacity             : 8589934592
+Speed                : 4800
+ConfiguredClockSpeed : 4800
+
+Capacity             : 8589934592
+Speed                : 4800
+ConfiguredClockSpeed : 4800
+
+
+
+P/E core breakdown (if hybrid): verify against this CPU model's manufacturer specification.
+
+Name            Value
+----            -----
+OMP_DYNAMIC     FALSE
+OMP_NUM_THREADS 20   
+
+
+Unset OpenMP affinity variables use runtime defaults; the OS may migrate threads.
+gcc.exe (Rev5, Built by MSYS2 project) 16.1.0
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiler: 16.1.0
+OpenMP macro: 202111
+omp_get_num_procs: 20
+omp_get_max_threads: 20
+omp_get_thread_limit: 2147483647
+Timer tick seconds: 0.001
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=49152 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=32768 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=1310720 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=2097152 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=1 type=2 size_bytes=32768 line_bytes=64
+Windows cache: level=1 type=1 size_bytes=65536 line_bytes=64
+Windows cache: level=2 type=0 size_bytes=2097152 line_bytes=64
+Windows cache: level=3 type=0 size_bytes=25165824 line_bytes=64

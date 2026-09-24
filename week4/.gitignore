@@ -1,0 +1,9 @@
+# Keep this folder limited to the requested submission assets.
+/*
+!/.gitignore
+!/answers.md
+!/analysis.pdf
+!/collatz.c
+!/collatz_seq.c
+!/collatz_common.h
+!/runs/

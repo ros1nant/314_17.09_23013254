@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.nbc
+*.nbi
+
+# Submit the completed full run; keep quick and future runs local.
+/results/*
+!/results/20260925_090644_231163_full/
+
+# Compiler diagnostics and PDF preview images are reproducible local artifacts.
+*.ll
+*.asm
+report_preview.png

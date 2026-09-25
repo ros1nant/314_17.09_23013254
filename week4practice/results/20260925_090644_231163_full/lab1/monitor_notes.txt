@@ -1,0 +1,1 @@
+CPU samples are system-wide per logical CPU, every ~100 ms. Short runs may finish before a sample. Open Task Manager > Performance > CPU > Logical processors during a full run for the manual observation. CPU workload is fixed per worker, so its total work grows with P. Rank 0 is a worker, not the original serial caller.

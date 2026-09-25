@@ -1,0 +1,70 @@
+Run 1: serial caller TID=8016
+Rank 3/4 | native TID=13692
+Rank 0/4 | native TID=28304
+Rank 1/4 | native TID=25640
+Rank 2/4 | native TID=26392
+All workers joined; serial caller resumes.
+
+Run 2: serial caller TID=8016
+Rank 3/4 | native TID=10444
+Rank 0/4 | native TID=4692
+Rank 1/4 | native TID=16192
+Rank 2/4 | native TID=7956
+All workers joined; serial caller resumes.
+
+Run 3: serial caller TID=8016
+Rank 0/4 | native TID=26896
+Rank 3/4 | native TID=2888
+Rank 1/4 | native TID=27532
+Rank 2/4 | native TID=28484
+All workers joined; serial caller resumes.
+
+Run 4: serial caller TID=8016
+Rank 3/4 | native TID=27072
+Rank 0/4 | native TID=15088
+Rank 1/4 | native TID=18800
+Rank 2/4 | native TID=25444
+All workers joined; serial caller resumes.
+
+Run 5: serial caller TID=8016
+Rank 3/4 | native TID=2508
+Rank 0/4 | native TID=26056
+Rank 1/4 | native TID=28668
+Rank 2/4 | native TID=9916
+All workers joined; serial caller resumes.
+
+Run 6: serial caller TID=8016
+Rank 3/4 | native TID=7120
+Rank 0/4 | native TID=12796
+Rank 1/4 | native TID=26112
+Rank 2/4 | native TID=23996
+All workers joined; serial caller resumes.
+
+Run 7: serial caller TID=8016
+Rank 3/4 | native TID=3284
+Rank 0/4 | native TID=22624
+Rank 1/4 | native TID=15824
+Rank 2/4 | native TID=12236
+All workers joined; serial caller resumes.
+
+Run 8: serial caller TID=8016
+Rank 3/4 | native TID=26532
+Rank 0/4 | native TID=22264
+Rank 1/4 | native TID=13636
+Rank 2/4 | native TID=23788
+All workers joined; serial caller resumes.
+
+Run 9: serial caller TID=8016
+Rank 3/4 | native TID=26632
+Rank 0/4 | native TID=1752
+Rank 1/4 | native TID=4836
+Rank 2/4 | native TID=23208
+All workers joined; serial caller resumes.
+
+Run 10: serial caller TID=8016
+Rank 0/4 | native TID=29504
+Rank 3/4 | native TID=26700
+Rank 1/4 | native TID=28216
+Rank 2/4 | native TID=23580
+All workers joined; serial caller resumes.
+

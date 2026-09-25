@@ -1,0 +1,310 @@
+{
+  "mode": "full",
+  "requested_lab": "all",
+  "started": "2026-09-25T09:06:44.231724+05:00",
+  "status": "complete",
+  "completed_labs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "physical_cores": 14,
+    "logical_cpus": 20,
+    "ram_bytes": 16780582912,
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.2.3",
+    "numba": "0.66.0",
+    "matplotlib": "3.10.7",
+    "numba_pool_capacity": 20,
+    "timer": "time.perf_counter",
+    "timer_resolution_seconds": 1e-07,
+    "cache_info": [
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 3
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 3
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 3
+      },
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 12
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 12
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 12
+      },
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 48
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 48
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 48
+      },
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 192
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 192
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 192
+      },
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 768
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 768
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 768
+      },
+      {
+        "level": 1,
+        "bytes": 49152,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 3072
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 3072
+      },
+      {
+        "level": 2,
+        "bytes": 1310720,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 3072
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 4096
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 4096
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 8192
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 8192
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 16384
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 16384
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 32768
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 32768
+      },
+      {
+        "level": 2,
+        "bytes": 2097152,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 61440
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 65536
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 65536
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 131072
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 131072
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 262144
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 262144
+      },
+      {
+        "level": 1,
+        "bytes": 32768,
+        "line_bytes": 64,
+        "type": 2,
+        "logical_cpu_mask": 524288
+      },
+      {
+        "level": 1,
+        "bytes": 65536,
+        "line_bytes": 64,
+        "type": 1,
+        "logical_cpu_mask": 524288
+      },
+      {
+        "level": 2,
+        "bytes": 2097152,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 983040
+      },
+      {
+        "level": 3,
+        "bytes": 25165824,
+        "line_bytes": 64,
+        "type": 0,
+        "logical_cpu_mask": 1048575
+      }
+    ],
+    "environment": {
+      "NUMBA_NUM_THREADS": "20",
+      "NUMBA_THREADING_LAYER": null,
+      "OMP_NUM_THREADS": null
+    },
+    "windows_processor_kib": {
+      "Name": "13th Gen Intel(R) Core(TM) i7-13650HX",
+      "NumberOfCores": 14,
+      "NumberOfLogicalProcessors": 20,
+      "L2CacheSize": 11776,
+      "L3CacheSize": 24576
+    },
+    "cache_type_key": {
+      "0": "unified",
+      "1": "instruction",
+      "2": "data",
+      "3": "trace"
+    }
+  },
+  "finished": "2026-09-25T09:11:15.508039+05:00",
+  "student_name": "Ainabek Aisultan",
+  "student_id": "230103254"
+}
